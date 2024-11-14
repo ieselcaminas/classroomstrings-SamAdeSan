@@ -1,6 +1,4 @@
 import java.util.Scanner;
-/** * 8. Alfabética {@code Alfabetica.java} (M)
- * <p>Una palabra es alfabética si todas sus letras están ordenadas alfabéticamente. Por ejemplo, “amor”, “chino” e “himno” son palabras alfabéticas. Diseña un programa que nos diga si una palabra es alfabética o no.</p>*/
 public class Alfabetica {
     // cáculo alfabética (si es o no es utilizamos boolean)
     public static boolean alfabetica(String palabra){
@@ -13,7 +11,7 @@ public class Alfabetica {
         return true;
     }
     public static void main(String[] args) {
-        String palabra = " ";
+        String palabra = "";
 
         Scanner sc = new Scanner(System.in);
 

@@ -1,7 +1,4 @@
 import java.util.Scanner;
-/// 1. Palabras de longitud dada {@code Longitud2.java}(F)
-///
-/// Realiza un programa que lea una cadena de texto y nos diga cuántas palabras tienen una longitud de {@code k} caracteres.
 public class Longitud1 {
     public static void main(String[] args) {
         String cadena;
@@ -23,6 +20,7 @@ public class Longitud1 {
                 contador++;
             }
         }
+
         System.out.println(contador);
     }
 }
